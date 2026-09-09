@@ -1,6 +1,59 @@
-bin/
-docs/
-img/
-release/
+```
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.ENV
+.python-version
+
+# Dependencies
+requirements.txt.bak
+
+# Build artifacts
+dist/
 build/
-phishlets/test-*
+*.egg-info/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.coverage
+htmlcov/
+.coverage.*
+.nox/
+.tox/
+
+# Package manager
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Distribution / packaging
+*.tar.gz
+*.whl
+
+# Pytest
+.pytest_cache/
+```

